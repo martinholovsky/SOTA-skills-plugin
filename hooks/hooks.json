@@ -29,6 +29,17 @@
           }
         ]
       }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/plugin-routing-hook.sh\""
+          }
+        ]
+      }
     ]
   }
 }
